@@ -38,7 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "customers/customers_controller";
+$route['home'] = "customers/customers_controller";
+$route['register'] = "customers/customers_controller/register";
+$route['about'] = "customers/customers_controller/information";
 $route['404_override'] = '';
 
 
