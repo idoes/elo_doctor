@@ -7,60 +7,62 @@
 	<div class="row clearfix">
 		<div class="col-md-1 column"></div>
 		<div class="col-md-10 column">
-			<h3>
-				Register on ELO Doctor.com
-			</h3>
+			<h3>Register on ELO Doctor.com</h3>
 			<hr>
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">First Name</label>
+					<label class="col-sm-2 control-label">First Name</label>
 					<div class="col-sm-10">
 						<input type="text" class="form-control"/>
 					</div>
 				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">Last Name</label>
+					<label class="col-sm-2 control-label">Last Name</label>
 					<div class="col-sm-10">
 						<input type="text" class="form-control"/>
 					</div>
 				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">Email</label>
+					<label class="col-sm-2 control-label">Email</label>
 					<div class="col-sm-10">
 						<input type="email" class="form-control"/>
 					</div>
 				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">Password</label>
+					<label class="col-sm-2 control-label">Password</label>
 					<div class="col-sm-10">
 						<input type="password" class="form-control"/>
 					</div>
 				</div>
+                                <div class="form-group">
+					<label class="col-sm-2 control-label">Password Confirmation</label>
+					<div class="col-sm-10">
+						<input type="passwordConfirmation" class="form-control"/>
+					</div>
+				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">Skype ID</label>
+					<label class="col-sm-2 control-label">Skype ID</label>
 					<div class="col-sm-10">
 						<input type="text" class="form-control"/>
 					</div>
 				</div>	
 				<br/>
-				<h3>
-					LoL Account Details
-				</h3>
+				<h3>LoL Account Details</h3>
 				<hr>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">LoL Username</label>
+					<label class="col-sm-2 control-label">LoL Username</label>
 					<div class="col-sm-10">
 						<input type="text" class="form-control"/>
 					</div>
 				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">LoL Password</label>
+					<label class="col-sm-2 control-label">LoL Password</label>
 					<div class="col-sm-10">
-						<input type="password" class="form-control"/>
+                                            <input type="password" class="form-control" name="lolpassword"/>
 					</div>
 				</div>
 				<div class="form-group">
-					 <label class="col-sm-2 control-label">LoL Country</label>
+					<label class="col-sm-2 control-label">LoL Country</label>
 					<div class="col-sm-10">
 						<select class="form-control" name="lol_country">
 						  <option value="North America">North America</option>
